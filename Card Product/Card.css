@@ -1,0 +1,37 @@
+
+.card img {
+    max-width: 100%; /* Сохранить пропорции изображения */
+    height: auto; /* Автоматическая высота изображения */
+  }
+
+  .card {
+    background-color: #fff; /* Цвет фона карточки */
+    padding: 20px; /* Поля внутри карточки */
+    margin-top: 20px; /* Отступ сверху */
+    border: 1px solid #ddd; /* Граница карточки */
+    border-radius: 8px; /* Закругление углов */
+  }
+
+  .card h1 {
+    font-size: 24px; /* Размер заголовка */
+    margin-bottom: 10px; /* Отступ снизу */
+  }
+
+  .card p {
+    font-size: 16px; /* Размер текста */
+    margin-bottom: 15px; /* Отступ снизу */
+  }
+
+  .card a.btn {
+    display: inline-block; /* Сделать ссылку блочным элементом */
+    padding: 10px 20px; /* Поля кнопки */
+    text-decoration: none; /* Убрать подчёркивание ссылки */
+    background-color: #007bff; /* Цвет фона кнопки */
+    color: #fff; /* Цвет текста кнопки */
+    border-radius: 4px; /* Закругление углов кнопки */
+    transition: background-color 0.3s; /* Плавное изменение цвета при наведении */
+  }
+
+  .card a.btn:hover {
+    background-color: #0056b3; /* Цвет фона кнопки при наведении */
+  }
